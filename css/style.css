@@ -1,0 +1,85 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    margin-top: 80px;
+    }
+    header div {
+        border-top: 1px solid black;
+        width: 500px;
+        margin: 0 auto;
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
+    header div h1 {
+        display: inline;
+        font-size: 50px;
+    }
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    }
+    nav a {
+        margin: 0 10px 0 10px;
+        font-style: italic;
+    }
+
+section {
+    height: 3500px;
+    }
+    section div p {
+        font-size: 12px;
+    }
+
+.exemple, .plate, .service, .resto_01,.resto_02, .resto_03, .resto_04 {
+    float: left;
+    height: 493px;
+    width: 50%;
+    display: inline;
+
+}
+
+div.plate img {
+    float: right;
+    margin-bottom: 50px;
+}
+
+div.exemple {
+    margin-bottom: 50px;
+
+    }
+    div.exemple div {
+        margin-right: 385px;
+
+
+    }
+    div.exemple div p {
+        font-size: 25px;
+        border-bottom: 1px solid black;
+        display: inline;
+        float: right;
+        margin-top: 174px;
+
+    }
+
+    div.exemple div h3 {
+        font-size: 50px;
+        display: block;
+        float: right;
+    }
+
+
+
+
+
+.clear {
+    clear: both;
+}
